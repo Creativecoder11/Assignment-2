@@ -66,10 +66,11 @@ body{
 .btn:hover{
     background-color: white;
     color: black;
+    
 }
 .btn i:hover{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     animation: rotate 1s linear infinite alternate;
     animation-play-state: unset;
     transition: transform .5s;
@@ -286,6 +287,15 @@ hr{
         background-color: #FF4136;
     }
 }
+@keyframes rotate {
+    0%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
     /* Responsive Website  */
 
     /* mobile device  */
