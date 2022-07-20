@@ -281,3 +281,81 @@ hr{
     
 }
 
+/* tablet device */
+@media only screen and (min-width:576px) and (max-width:991px){
+    .header-banner{
+        margin: 10px 0px;
+    }
+    .banner-section{
+        height: 450px;
+        width: 600px;
+        margin: 10px 10px;
+    }
+    .banner-left{
+        width: 100%;
+        padding-left: 50px;
+    }
+    .banner-left h1{
+        font-size: 35px;
+        font-style: normal;
+        line-height: 40px;
+    }
+    .banner-left p{
+        font-size: 14px;
+        padding-right: 0px;
+    }
+    .hide{
+        display: none;
+    }
+    .btn{
+        padding: 8px 12px ;
+    }
+    .banner-right{
+        width: 100%;
+    }
+    .banner-left a{
+        font-size: 16px;
+    }
+    .banner-right img{
+        width: auto;
+        height: 420px;
+        margin-left: 35%;
+        margin-bottom: 25px;
+    }
+
+    * blog container */
+    .news-feed {
+        padding-left: 60px;
+        padding-right: 200px;
+        flex-direction: column;
+    }
+    .blog-navigation{
+        
+    }
+    .blog-navigation ul a{
+        font-size: 18px;
+    }
+    .blog-container{
+        flex-direction: column;
+    }
+
+    .blog-cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer{
+        width:400px;
+    }
+    .footer-menu .footer-links{
+        flex-direction: column;
+    }
+    .social-brand {                 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+
+
+
+}   
