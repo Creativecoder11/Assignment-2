@@ -2,10 +2,14 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif; ;
+    font-family: 'Poppins', sans-serif;
 }
 :root{
     color: #540C6F;
+}
+body{
+    overflow: hidden;
+    overflow-y: scroll;
 }
 .header-banner{
     padding: 50px 140px;
@@ -48,9 +52,9 @@
 }
 .banner-right img{
     position: relative;
-    top: 25px;
+    top: 35px;
     right: 120px;
-    max-width: 125%;
+    max-width: 110%;
     height: auto;
     margin-right: 150px;
 }
@@ -155,25 +159,99 @@
 .footer-container{
     background-color: #540C6F;
     text-align: center;
+    justify-content: center;
+    padding: 130px 0px ;                         
+}
+hr{
+    margin: 50px 150px;
+    border: 1px solid rgba(255, 255, 255, 0.185);
+    
 }
 .footer-container h2{
-    margin: 0 auto;
+    margin-bottom: 50px;
     color: white;
+    font-size: 40px;
+    font-weight: 600;
 }
 .footer-menu ul{
     display: flex;
     justify-content: center;
+    gap: 40px;
     list-style: none;
+    margin-top: 50px;
 }
 .footer-menu a{
     color: white;
     text-decoration: none;
     column-gap: 50px;
-    
 }
 
-@media only screen and (max-width:575px) {
+.fa-brands{
+    margin-top: 40px;
+    font-size: 30px;
+}
+.fa-brands:hover{
+    background-color: #DD0000;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+
+    /* Responsive Website  */
+
+    /* mobile device  */
+@media only screen and (max-width:575px){
+    .banner-section{
+        height: 447px;
+        /* width: 100%; */
+        flex-direction: column;
+    }
+    .header-banner{
+        text-align: center;
+        padding: 20px;
+    }
+    .banner-left{
+        margin-top: 220px;
+        padding-left: 50px;
+    }
+    .banner-left h1{
+        line-height: 33px;
+
+        font-size: 22px;
+    }
+    .banner-left p{
+        font-size: 14px;
+        padding-right: 20px;
+    }
+    .btn{
+        padding: 8px 12px ;
+    }
+    .banner-left a{
+        font-size: 16px;
+    }
+    .banner-right img{
+        max-width: 200px;
+        position: relative;
+        left: 50%;
+        right: 50%;
+    }
+
+    /* blog container */
     .blog-container{
         flex-direction: column;
     }
+
+    .blog-cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .footer-menu ul{
+        flex-direction: column;
+    }
+    .social-brand i{                 
+        display: flex;
+        
+        
+    }
+    
 }
+
