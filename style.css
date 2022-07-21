@@ -464,7 +464,7 @@ hr{
     .blog-container{
         flex-direction: column;
         margin-left: 203px;
-        margin-right: -50px;
+        margin-right: -20px;
     }
     .blog-content{
         margin-top: -180px;
@@ -482,6 +482,7 @@ hr{
      .flag-cards{
         margin-top: -150px;
         grid-template-columns: repeat(3, 1fr);
+        margin-left: 100px;
     }
     .flag-card{
         width: 312px;
