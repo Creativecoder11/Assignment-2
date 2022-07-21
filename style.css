@@ -246,8 +246,8 @@ hr{
     display: none;
 }
 .view-all-btn button{
-    padding: 12px 30px;
-    background-color: #DD0000;
+    padding: 15px 40px;
+    background-color: #FB4D3D;
     color: #FFFFFF;
     border: none;
     border-radius: 10px;
@@ -396,7 +396,7 @@ hr{
     }
     .banner-section{
         height: 450px;
-        width: 950px;
+        width: 884px;
         margin: 10px 10px;
     }
     .banner-left{
@@ -437,8 +437,10 @@ hr{
         flex-direction: column;
         width: 100%;
     }
-    .blog-navigation{
-        background-color: none;
+    .blog-color{
+        transition: none;
+        animation: none;
+        background-color: white;
     }
     .blog-navigation ul{
         display: flex;
@@ -452,13 +454,14 @@ hr{
     }
     .blog-container{
         flex-direction: column;
-        margin-left: 150px;
+        margin-left: 203px;
+        margin-right: -50px;
     }
     .blog-content{
         margin-top: -180px;
     }
     .card{
-        height:480px;
+        height:410px;
     }
     .blog-cards{
         grid-template-columns: repeat(2, 1fr);
@@ -475,6 +478,9 @@ hr{
     }
     .view-all-btn{
         display: block;
+        margin-left: 60%;
+
+    
     }
     
     /* footer-section */
