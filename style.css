@@ -267,7 +267,7 @@ hr{
     height: 100%;
     animation: pulse 10s infinite;
 }
-.blog-navigation{
+.blog-color{
     animation: pulse 1s infinite;
 }
 @keyframes pulse {
@@ -348,11 +348,13 @@ hr{
     .news-feed {
         padding-left: 60px;
         padding-right: 200px;
+        margin: -456px -473px;
         flex-direction: column;
     }
-    .blog-navigation{
+    .blog-color{
+        transition: none;
+        animation: none;
         background-color: white;
-        
     }
     .blog-navigation ul a{
         font-size: 18px;
@@ -436,7 +438,7 @@ hr{
         width: 100%;
     }
     .blog-navigation{
-        background-color: white;
+        background-color: none;
     }
     .blog-navigation ul{
         display: flex;
