@@ -176,7 +176,6 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
-    margin-right: 200px;
 }
 .flag-card{
     display: flex;
@@ -356,6 +355,10 @@ hr{
         animation: none;
         background-color: white;
     }
+    .blog-navigation{
+        margin-left: -26px;
+        margin-top: -20px;
+    }
     .blog-navigation ul a{
         font-size: 18px;
     }
@@ -363,7 +366,6 @@ hr{
         flex-direction: column;
         margin: 500px;
     }
-
     .blog-cards{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -437,10 +439,17 @@ hr{
         flex-direction: column;
         width: 100%;
     }
+    .news-feed-content{
+        margin-left: -500px;
+    }
     .blog-color{
         transition: none;
         animation: none;
         background-color: white;
+    }
+    .blog-navigation{
+        margin-left: -26px;
+        margin-top: -20px;
     }
     .blog-navigation ul{
         display: flex;
@@ -471,7 +480,8 @@ hr{
 
      /* flag card  */
      .flag-cards{
-        grid-template-columns: repeat(2, 1fr);
+        margin-top: -150px;
+        grid-template-columns: repeat(3, 1fr);
     }
     .flag-card{
         width: 312px;
@@ -479,10 +489,7 @@ hr{
     .view-all-btn{
         display: block;
         margin-left: 60%;
-
-    
     }
-    
     /* footer-section */
     .footer{
         width:100%;
